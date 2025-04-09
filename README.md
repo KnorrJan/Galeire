@@ -1,4 +1,4 @@
-# Galeire
+# Galerie Konvent
 Oficiální eshop Galerie Konvent v Mikulově.
 # Galerie Konvent – Eshop
 
