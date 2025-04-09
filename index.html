@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galerie Konvent</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="logo">Galerie Konvent</h1>
+      <p class="motto">Umění v srdci historie</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="gallery">
+      <div class="product">
+        <img src="images/obraz1.jpg" alt="Letní krajina" />
+        <h2>Letní krajina</h2>
+        <p>Akryl na plátně, 50x70 cm</p>
+        <p class="price">8 500 Kč</p>
+        <button onclick="addToCart('Letní krajina', 8500)">Přidat do košíku</button>
+      </div>
+      <div class="product">
+        <img src="images/obraz2.jpg" alt="Noční Mikulov" />
+        <h2>Noční Mikulov</h2>
+        <p>Olej na plátně, 60x80 cm</p>
+        <p class="price">12 000 Kč</p>
+        <button onclick="addToCart('Noční Mikulov', 12000)">Přidat do košíku</button>
+      </div>
+    </section>
+
+    <section class="cart" id="cart">
+      <h2>Košík</h2>
+      <ul id="cart-items"></ul>
+      <p id="total">Celkem: 0 Kč</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Galerie Konvent – Kapucínský klášter, Mikulov</p>
+  </footer>
+
+  <script src="js/cart.js"></script>
+</body>
+</html>
