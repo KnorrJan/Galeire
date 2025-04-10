@@ -1,60 +1,53 @@
-
 <!DOCTYPE html>
 <html lang="cs">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Galerie Konvent – Eshop</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap" rel="stylesheet" />
+  <title>Galerie Konvent</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="logo">Galerie Konvent</div>
-    <nav>
-      <ul>
-        <li><a href="#home">Domů</a></li>
-        <li><a href="#obrazy">Obrazy</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
-      </ul>
-    </nav>
+    <h1>Galerie Konvent</h1>
+    <p>Bývalý kapucínský klášter | Historie a umění</p>
   </header>
-  <section id="home">
-    <h1>Vítejte v Galerii Konvent</h1>
-    <p>Objevte originální umění z prostor bývalého kapucínského kláštera v Mikulově.</p>
-  </section>
-  <section id="obrazy">
-    <h2>Dostupné obrazy</h2>
+
+  <section class="gallery-section">
+    <h2>Obrazy</h2>
     <div class="gallery">
-      <div class="product">
-        <img src="images/obraz1.jpg" alt="Obraz 1" />
-        <h3>Letní klášterní zahrada</h3>
-        <p>Akryl na plátně, 50×70 cm</p>
-        <p><strong>Cena:</strong> 8 900 Kč</p>
-        <button>Přidat do košíku</button>
+      <div class="painting">
+        <img src="Březový%20les.JPG" alt="Březový les" />
+        <h3>Březový les</h3>
+        <form>
+          <label>Nabídka (Kč):</label>
+          <input type="number" placeholder="Zadejte svou nabídku" />
+          <button type="submit">Přihodit</button>
+        </form>
       </div>
-      <div class="product">
-        <img src="images/obraz2.jpg" alt="Obraz 2" />
-        <h3>Tišina klenby</h3>
-        <p>Olej na plátně, 60×80 cm</p>
-        <p><strong>Cena:</strong> 12 500 Kč</p>
-        <button>Přidat do košíku</button>
+      <div class="painting">
+        <img src="Čihotka.JPG" alt="Čihotka" />
+        <h3>Čihotka</h3>
+        <form>
+          <label>Nabídka (Kč):</label>
+          <input type="number" placeholder="Zadejte svou nabídku" />
+          <button type="submit">Přihodit</button>
+        </form>
       </div>
-      <div class="product">
-        <img src="images/obraz3.jpg" alt="Obraz 3" />
-        <h3>Stíny historie</h3>
-        <p>Smíšená technika, 40×60 cm</p>
-        <p><strong>Cena:</strong> 7 300 Kč</p>
-        <button>Přidat do košíku</button>
+      <div class="painting">
+        <img src="Jaro%20v%20lesn%C3%AD%20ti%C5%A1in%C4%9B.JPG" alt="Jaro v lesní tišině" />
+        <h3>Jaro v lesní tišině</h3>
+        <form>
+          <label>Nabídka (Kč):</label>
+          <input type="number" placeholder="Zadejte svou nabídku" />
+          <button type="submit">Přihodit</button>
+        </form>
       </div>
+      <!-- Další obrazy podle stejného vzoru -->
     </div>
   </section>
-  <section id="kontakt">
-    <h2>Kontakt</h2>
-    <p>Galerie Konvent<br>Mikulov, Česká republika<br>Email: info@galeriekonvent.cz</p>
-  </section>
+
   <footer>
-    <p>&copy; 2025 Galerie Konvent. Všechna práva vyhrazena.</p>
+    <p>&copy; 2025 Galerie Konvent | Brno</p>
   </footer>
 </body>
 </html>
